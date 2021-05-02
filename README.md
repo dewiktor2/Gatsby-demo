@@ -1,2 +1,2 @@
-# UiPixelsCopy
- Copy of main site UiPixels
+# Gatsby template
+ Template
