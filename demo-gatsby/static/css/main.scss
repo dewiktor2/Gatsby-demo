@@ -1,0 +1,42 @@
+@import '/css/utilities/variables.scss';
+
+:root {
+    --green: $ui-green;
+    --white: $ui-white;
+    --black: $ui-black;
+}
+
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+body {
+    background: var(--bg);
+}
+
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+}
+
+ul {
+    font-family: helvetica;
+
+    li {
+        list-style: circle;
+    }
+}
+
+p {
+    color: $ui-green;
+}
+
+.list {
+    list-style: square;
+}

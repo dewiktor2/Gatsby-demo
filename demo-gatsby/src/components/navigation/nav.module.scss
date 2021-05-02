@@ -1,0 +1,25 @@
+@import "../../styles/variables.scss";
+
+nav {
+    width: 100%;
+    background-color: $ui-gray;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+        li {
+            float: left;
+        }
+
+        li a:hover:not(.active) {
+            background-color: $ui-white;
+        }
+        li a {
+            display: block;
+            padding: 8px;
+            text-decoration: none;
+        }
+    }
+}
